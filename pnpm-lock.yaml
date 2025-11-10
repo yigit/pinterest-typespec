@@ -7,17 +7,14 @@ settings:
 overrides:
   cross-spawn@>=7.0.0 <7.0.5: ^7.0.5
   rollup: 4.49.0
-  '@alloy-js/python': 0.2.0
-  '@alloy-js/core': 0.21.0
+  '@alloy-js/core': ^0.22.0-dev.3
+  '@alloy-js/python': 0.3.0-dev.3
   '@alloy-js/babel-plugin': 0.2.1
 
 importers:
 
   .:
     devDependencies:
-      '@alloy-js/babel-plugin':
-        specifier: 0.2.1
-        version: 0.2.1(@babel/core@7.28.4)
       '@chronus/chronus':
         specifier: ^1.0.1
         version: 1.1.0
@@ -425,11 +422,11 @@ importers:
         specifier: ^0.21.0
         version: 0.21.0
       '@alloy-js/core':
-        specifier: ^0.21.0
-        version: 0.21.0
+        specifier: ^0.22.0-dev.3
+        version: 0.22.0-dev.3
       '@alloy-js/python':
-        specifier: 0.2.0
-        version: 0.2.0
+        specifier: 0.3.0-dev.3
+        version: 0.3.0-dev.3
       '@alloy-js/rollup-plugin':
         specifier: ^0.1.0
         version: 0.1.0(@babel/core@7.28.5)(@types/babel__core@7.20.5)(rollup@4.49.0)
@@ -692,8 +689,8 @@ importers:
         specifier: ^0.21.0
         version: 0.21.0
       '@alloy-js/core':
-        specifier: ^0.21.0
-        version: 0.21.0
+        specifier: ^0.22.0-dev.3
+        version: 0.22.0-dev.3
       '@alloy-js/rollup-plugin':
         specifier: ^0.1.0
         version: 0.1.0(@babel/core@7.28.5)(@types/babel__core@7.20.5)(rollup@4.49.0)
@@ -734,8 +731,8 @@ importers:
   packages/http-client-js:
     dependencies:
       '@alloy-js/core':
-        specifier: ^0.21.0
-        version: 0.21.0
+        specifier: ^0.22.0-dev.3
+        version: 0.22.0-dev.3
       '@alloy-js/typescript':
         specifier: ^0.21.0
         version: 0.21.0
@@ -2272,8 +2269,8 @@ importers:
   packages/tspd:
     dependencies:
       '@alloy-js/core':
-        specifier: ^0.21.0
-        version: 0.21.0
+        specifier: ^0.22.0-dev.3
+        version: 0.22.0-dev.3
       '@alloy-js/markdown':
         specifier: ^0.21.0
         version: 0.21.0
@@ -2729,8 +2726,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  '@alloy-js/core@0.21.0':
-    resolution: {integrity: sha512-eIBllm+Lgk/AcV6QdipZAVlYPIp6RHmgz046GXBQeXZnTZXmPHURVFI18/FVuaK7K+uUt0eriPXIYXs4/Ja5rQ==}
+  '@alloy-js/core@0.22.0-dev.3':
+    resolution: {integrity: sha512-VmiLT1vugNMo+SNaO3B4UOoP32K8FbqB9zZW07+TFUcUrUEA3N7g4pOgBxizr6kKYOXOp9rITa10ixMuCmJhBg==}
 
   '@alloy-js/csharp@0.21.0':
     resolution: {integrity: sha512-Tw3AQaHjwRTZB6L6QPoXFJOmjDQyyGb2gwwAKGnea7q/J6BmwNkBHvCSuVe21Nkhgb4/upivWFyP8zbtdVAE5A==}
@@ -2741,8 +2738,8 @@ packages:
   '@alloy-js/msbuild@0.21.0':
     resolution: {integrity: sha512-QmMwF7eoYMdR5mX+8cIKb5F3Mgi3uQlFYrGYq92ht6BOc/XKyBXIwCXq6zqPMAT7nd2BHDD2hvgbL6nLS4QcGg==}
 
-  '@alloy-js/python@0.2.0':
-    resolution: {integrity: sha512-KfRm5L1kFVIUjtHFepNq1Zc3QCrW2xUY2I+Db81HBuwWncANqD6wwlDwGDziODorOeDac456b9v4tlTHFHbvcw==}
+  '@alloy-js/python@0.3.0-dev.3':
+    resolution: {integrity: sha512-b4PLoc6PzJIsviTLjYt6O3Estlz92sTgL3QcgH1zapr5sj5csOWzJ8vR3/+4Tl8nLKUk7s+H5+L80PRXvDj/Tg==}
 
   '@alloy-js/rollup-plugin@0.1.0':
     resolution: {integrity: sha512-MXR8mBdSh/pxMP8kIXAcMYKsm5yOWZ+igxcaRX1vBXFiHU4eK7gE/5q6Fk8Vdydh+MItWtgekwIhUWvcszdNFQ==}
@@ -13510,7 +13507,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@alloy-js/core@0.21.0':
+  '@alloy-js/core@0.22.0-dev.3':
     dependencies:
       '@vue/reactivity': 3.5.22
       cli-table3: 0.6.5
@@ -13520,7 +13517,7 @@ snapshots:
 
   '@alloy-js/csharp@0.21.0':
     dependencies:
-      '@alloy-js/core': 0.21.0
+      '@alloy-js/core': 0.22.0-dev.3
       '@alloy-js/msbuild': 0.21.0
       change-case: 5.4.4
       marked: 16.4.1
@@ -13528,20 +13525,20 @@ snapshots:
 
   '@alloy-js/markdown@0.21.0':
     dependencies:
-      '@alloy-js/core': 0.21.0
+      '@alloy-js/core': 0.22.0-dev.3
       yaml: 2.8.1
 
-  '@alloy-js/python@0.2.0':
-    dependencies:
-      '@alloy-js/core': 0.21.0
-      change-case: 5.4.4
-      pathe: 2.0.3
-  
   '@alloy-js/msbuild@0.21.0':
     dependencies:
-      '@alloy-js/core': 0.21.0
+      '@alloy-js/core': 0.22.0-dev.3
       change-case: 5.4.4
       marked: 16.4.1
+      pathe: 2.0.3
+
+  '@alloy-js/python@0.3.0-dev.3':
+    dependencies:
+      '@alloy-js/core': 0.22.0-dev.3
+      change-case: 5.4.4
       pathe: 2.0.3
 
   '@alloy-js/rollup-plugin@0.1.0(@babel/core@7.28.5)(@types/babel__core@7.20.5)(rollup@4.49.0)':
@@ -13557,7 +13554,7 @@ snapshots:
 
   '@alloy-js/typescript@0.21.0':
     dependencies:
-      '@alloy-js/core': 0.21.0
+      '@alloy-js/core': 0.22.0-dev.3
       change-case: 5.4.4
       pathe: 2.0.3
 
