@@ -10,7 +10,6 @@
 
 - [#8823](https://github.com/microsoft/typespec/pull/8823) Upgrade dependencies
 
-
 ## 0.12.0
 
 ### Features
